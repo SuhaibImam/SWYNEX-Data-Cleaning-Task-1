@@ -1,4 +1,4 @@
-# SWYNEX-Data-Cleaning-Task-1
+# SWYNEX-Data-Cleaning-Preparation
 Data Cleaning &amp; Preparation project completed as part of my Data Analyst Internship at SWYNEX Technologies. The project focuses on cleaning, transforming, validating, and preparing a retail transaction dataset for further analysis using Microsoft Excel.
 # 📊 SWYNEX Technologies – Data Cleaning & Preparation
 
