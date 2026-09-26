@@ -114,6 +114,110 @@ After cleaning the dataset, I performed exploratory data analysis (EDA) using KP
 The analysis workbook contains the KPIs, EDA, pivot tables, charts, and key insights, while the repository also includes screenshots of the dashboard and analysis.
 
 
+# 🛒 Retail Sales Dashboard | Power BI
+
+An interactive **Retail Sales Dashboard** built using **Microsoft Power BI** to analyze sales performance, customer purchasing patterns, product categories, payment methods, locations, and yearly sales trends.
+
+The dashboard provides an interactive view of retail business performance from **2022 to 2025**.
+
+---
+
+## 📊 Dashboard Preview
+
+![Retail Sales Dashboard](dashboard.png)
+
+> Replace `dashboard.png` with the name of your dashboard screenshot uploaded to this GitHub repository.
+
+---
+
+## 🎯 Project Objective
+
+The main objective of this project is to create an interactive dashboard that helps users:
+
+- Monitor overall sales performance
+- Compare sales across different years
+- Analyze sales by product category
+- Understand monthly sales trends
+- Compare sales by location
+- Analyze payment methods
+- Analyze discounted vs non-discounted transactions
+- Compare **2025 sales with 2022 sales**
+- Interactively filter the dashboard using slicers
+
+---
+
+## 📌 Key KPIs
+
+The dashboard includes the following key performance indicators:
+
+| KPI | Description |
+|---|---|
+| 💰 Total Sales | Overall sales generated |
+| 📦 Total Quantity | Total quantity of products sold |
+| 💵 Average Unit Price | Average price per unit |
+| 🛍️ Average Order Value | Average value of an order |
+| 📈 2025 vs 2022 | Percentage change in sales between 2025 and 2022 |
+
+---
+
+## 📈 Dashboard Visuals
+
+The dashboard contains multiple interactive visualizations:
+
+### 1. Sales by Category
+A bar chart showing total sales across different product categories.
+
+### 2. Sales by Month & Year
+A line/area chart used to compare monthly sales trends across different years.
+
+### 3. Sales by Payment Method
+A donut chart showing the distribution of total spending across payment methods.
+
+### 4. Sales by Location
+A column chart comparing sales between different locations.
+
+### 5. Sales by Year
+A column chart comparing total sales from **2022 to 2025**.
+
+### 6. Sales by Category Treemap
+A treemap providing a visual comparison of sales contribution across product categories.
+
+### 7. Discount Analysis
+A donut chart showing the distribution of transactions based on whether a discount was applied.
+
+---
+
+## 🎛️ Interactive Features
+
+The dashboard includes interactive slicers for:
+
+- **Payment Method**
+- **Location**
+- **Category**
+- **Year**
+
+Users can select different combinations of filters and analyze the corresponding changes throughout the dashboard.
+
+### 🔄 Reset Button
+
+A **Reset** button has also been added to clear the slicer selections and return the dashboard to its default view.
+
+---
+
+## 🧮 DAX Measures
+
+DAX was used to create calculated measures for KPI analysis and year-to-year comparison.
+
+Example:
+
+```DAX
+Sales Change % 2025 vs 2022 =
+DIVIDE(
+    [Sales 2025] - [Sales 2022],
+    [Sales 2022],
+    0
+)
+
 ## 📈 Outcome
 
 The final cleaned dataset provides a more structured and consistent foundation for:
